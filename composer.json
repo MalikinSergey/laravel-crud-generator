@@ -1,0 +1,12 @@
+{
+    "name": "mlsg/laravel-crud-generator",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mlsg\\LaravelCrudGenerator\\": "src/"
+        }
+    }
+}
