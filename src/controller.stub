@@ -18,9 +18,9 @@ class DummyClass extends Controller
     {
         $query = DummyModel::query();
 
-        $dummy_model_lower_plural = $query->get();
+        $dummy_model_plural = $query->get();
 
-        return view('dummy_prefixdummy_model_lower.list', ['dummy_model_lower_plural' => $dummy_model_lower_plural]);
+        return view('dummy_prefixdummy_model_lower.list', ['dummy_model_plural' => $dummy_model_plural]);
     }
 
     /**

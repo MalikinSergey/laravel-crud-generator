@@ -11,7 +11,7 @@ class LaravelCrudGeneratorServiceProvider extends ServiceProvider
      * Indicates if loading of the provider is deferred.
      * @var bool
      */
-    protected $defer = true;
+    protected $defer = false;
 
     /**
      * Bootstrap the application events.

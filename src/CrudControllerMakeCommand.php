@@ -56,7 +56,7 @@ class CrudControllerMakeCommand extends GeneratorCommand
         return [
             ['name', InputArgument::REQUIRED, 'The name of the class'],
             ['model', InputArgument::REQUIRED, 'The class of the model'],
-            ['prefix', InputArgument::OPTIONAL, 'The name of the class'],
+            ['prefix', InputArgument::OPTIONAL, 'Prefix for routes and views'],
         ];
     }
 
@@ -93,7 +93,7 @@ class CrudControllerMakeCommand extends GeneratorCommand
             'dummy_prefix',
             'DummyModel',
             'dummy_model_lower',
-            'dummy_model_lower_plural',
+            'dummy_model_plural',
             'dummy_message_key',
             'dummy_message_success'
         ];

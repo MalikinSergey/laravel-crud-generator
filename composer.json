@@ -1,5 +1,6 @@
 {
     "name": "mlsg/laravel-crud-generator",
+    "description": "Package for generate REST controllers with basic logic",
     "license": "MIT",
     "require": {
         "illuminate/support": "5.*"
